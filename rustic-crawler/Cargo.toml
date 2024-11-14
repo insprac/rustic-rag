@@ -1,0 +1,11 @@
+[package]
+name = "rustic-crawler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+reqwest = "0.12.9"
+scraper = "0.21.0"
+thiserror = "2.0.3"
+tokio = { version = "1.41.1", features = ["full"] }
